@@ -6,7 +6,7 @@
 # Build
 `mvn clean package`
 
-#Run (without bouncy castle)
+# Run (without bouncy castle)
 ### As a Java agent
 `java -javaagent:<jar-path> -version`
 ### As a Java application
