@@ -1,9 +1,9 @@
-#Bouncy Castle issue
+# Bouncy Castle issue
       - Tested on Java 8 with Ubuntu 18 and Windows 10
       - When running in FIPS mode with a Java agent, execution time deteriorate from 3 seconds to 300+ seconds
       - Sending one HTTPS GET request (which should normally take about 5 seconds)
 
-#Build
+# Build
 `mvn clean package`
 
 #Run (without bouncy castle)
